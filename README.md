@@ -13,6 +13,19 @@
    - .env (configuration file)
    - .htaccess (security file)
 
+## Local Development (npm)
+
+1. Install dependencies (there are no Node packages yet, but this creates the lockfile):
+   ```bash
+   npm install
+   ```
+2. Start the PHP development server:
+   ```bash
+   npm run dev
+   ```
+3. Visit the site at http://127.0.0.1:8000 to test pages and the contact form.
+4. Stop the server with `Ctrl+C` when finished.
+
 ## Configuration
 
 ### Step 1: Set Up Environment Variables

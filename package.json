@@ -1,0 +1,12 @@
+{
+  "name": "wastebarn-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WasteBarn marketing site with PHP contact form backend.",
+  "scripts": {
+    "dev": "php -S 127.0.0.1:8000 -t ."
+  },
+  "engines": {
+    "php": ">=7.4"
+  }
+}

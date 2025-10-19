@@ -36,7 +36,7 @@ function loadEnv($path) {
             $value = trim($value);
 
             // Remove quotes if present
-            $value = trim($value, '"'');
+            $value = trim($value, "\"'");
 
             // Set environment variable
             putenv("$key=$value");

@@ -389,9 +389,20 @@ nav {
     font-family: inherit;
 }
 
+.form-group input.invalid {
+    border-color: #e74c3c;
+}
+
 .form-group textarea {
     resize: vertical;
     min-height: 120px;
+}
+
+.field-message {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #e74c3c;
+    min-height: 1.125rem;
 }
 
 .form-row {
